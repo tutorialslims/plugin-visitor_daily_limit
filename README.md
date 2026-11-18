@@ -19,8 +19,17 @@ Dibuat oleh **Tutorial SLiMS**.
 ## Kebutuhan
 
 - SLiMS 9.8.0
+- Ekstensi PHP **sodium** aktif (bawaan PHP 7.2 ke atas; umumnya sudah aktif tanpa perlu dipasang terpisah)
 - Tampilan pesan paling lengkap (kartu peringatan dengan foto) tersedia di template
   [Modern Library](https://github.com/tutorialslims/template-modern_library). Pada template lain, pesan tetap dikirim oleh SLiMS dan ditampilkan menurut template tersebut.
+
+## Tentang kode plugin ini
+
+Mulai versi 1.2.0, logika plugin dipadatkan dan dienkripsi di dalam berkas
+`visitor_daily_limit.plugin.php` agar tidak diubah sembarangan. Berkas ini
+mendekripsi dirinya sendiri secara otomatis saat dimuat SLiMS, tanpa memerlukan
+ekstensi atau perangkat lunak tambahan di luar PHP itu sendiri. Perilaku plugin
+tidak berubah dari sisi pengguna.
 
 ## Cara pasang
 
