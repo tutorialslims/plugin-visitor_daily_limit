@@ -3,7 +3,7 @@
  * Plugin Name: Batas Buku Tamu Harian
  * Plugin URI: https://github.com/tutorialslims/plugin-visitor_daily_limit
  * Description: Buku tamu (index.php?p=visitor) hanya bisa diisi satu kali per hari: anggota terdaftar berdasarkan ID anggota, tamu non-anggota berdasarkan Nama Tamu + Institusi yang sama.
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: Tutorial SLiMS
  * Author URI: https://instagram.com/tutorial_slims
  */
